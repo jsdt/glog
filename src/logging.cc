@@ -339,7 +339,7 @@ static int32 MaxLogSize() {
 
 // An arbitrary limit on the length of a single log message.  This
 // is so that streaming can be done more efficiently.
-const size_t LogMessage::kMaxLogMessageLen = 30000;
+const size_t LogMessage::kMaxLogMessageLen = 500000;
 
 struct LogMessage::LogMessageData  {
   LogMessageData();
